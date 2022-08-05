@@ -59,6 +59,7 @@ def isLegalPink(x, y, matrix):
         return False
     if isInMatrix(x - 1, y) and matrix[x - 1][y] == COLORS.get("Blue"):  # left
         return False
+    return True
 
 
 def solve(matrix):
